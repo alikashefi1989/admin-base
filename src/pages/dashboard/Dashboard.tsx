@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { ReduxStoreModel } from "../models/state-management/redux/reduxStore.model";
-import { REDUX_ACTIONS } from "../state-management/redux/reduxAction.enum";
+import { ReduxStoreModel } from "../../models/state-management/redux/reduxStore.model";
+import { REDUX_ACTIONS } from "../../state-management/redux/reduxAction.enum";
 
 function Dashboard() {
 
