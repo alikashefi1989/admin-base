@@ -5,6 +5,7 @@ import { persistedStore, store } from "./state-management/redux/store";
 import { PersistGate } from 'redux-persist/integration/react';
 import { BrowserRouter as Router } from "react-router-dom";
 import App from './components/app/App';
+import "./assets/style.scss";
 
 ReactDOM.render(
   <Provider store={store}>
